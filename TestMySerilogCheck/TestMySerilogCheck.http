@@ -1,0 +1,6 @@
+@TestMySerilogCheck_HostAddress = http://localhost:5182
+
+GET {{TestMySerilogCheck_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
